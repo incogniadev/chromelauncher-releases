@@ -1,0 +1,67 @@
+﻿{
+    "latestVersion":  142,
+    "mandatory":  false,
+    "changelog":  "Actualizacion flags experimentales para Chrome 142",
+    "releaseDate":  "2025-11-10T22:41:05Z",
+    "stats":  {
+                  "binaryCount":  37,
+                  "totalSizeMB":  24.43
+              },
+    "downloads":  {
+                      "Yucatan":  {
+                                      "url":  "https://raw.githubusercontent.com/incogniadev/chromelauncher-releases/main/142/ChromeLauncher-142-Umipol-QA.exe",
+                                      "sha256":  "b5216713f115021f4d0bf9c42b6eb2634130028d272a3ab9c06365e285b8959b",
+                                      "size":  692224
+                                  },
+                      "Ecatepec":  {
+                                       "url":  "https://raw.githubusercontent.com/incogniadev/chromelauncher-releases/main/142/ChromeLauncher-142-Ecatepec-PROD.exe",
+                                       "sha256":  "79dc4abb909d2fda7c6fee2b225485552618390eee11e173d02a65fcd72b07a9",
+                                       "size":  692224
+                                   },
+                      "Jalisco":  {
+                                      "url":  "https://raw.githubusercontent.com/incogniadev/chromelauncher-releases/main/142/ChromeLauncher-142-Jalisco-PRE.exe",
+                                      "sha256":  "4036453afd79fb30835ee34a2b2aad4bd8c34eacd10eaab55ad6adfda9f987d4",
+                                      "size":  692224
+                                  },
+                      "Nayarit":  {
+                                      "url":  "https://raw.githubusercontent.com/incogniadev/chromelauncher-releases/main/142/ChromeLauncher-142-Tepic-QA.exe",
+                                      "sha256":  "21fe7aa82f9a29d4e60448e969a28b01f919e28b9eeee41b7a0fc3ae70954123",
+                                      "size":  692224
+                                  },
+                      "Chiapas":  {
+                                      "url":  "https://raw.githubusercontent.com/incogniadev/chromelauncher-releases/main/142/ChromeLauncher-142-Villaflores-PROD.exe",
+                                      "sha256":  "db60160c0456174e6fa4dc6dbb24e39657c1e834ab523c29d4e4ffbd660538bf",
+                                      "size":  692224
+                                  },
+                      "Acapulco":  {
+                                       "url":  "https://raw.githubusercontent.com/incogniadev/chromelauncher-releases/main/142/ChromeLauncher-142-Acapulco-PROD.exe",
+                                       "sha256":  "e3ef7b75888aa42acddbec00a553a3f35bcedecfbaac838dd49718a5f9bc94f9",
+                                       "size":  692224
+                                   },
+                      "K1":  {
+                                 "url":  "https://raw.githubusercontent.com/incogniadev/chromelauncher-releases/main/142/ChromeLauncher-142-K1-PROD.exe",
+                                 "sha256":  "ccb8dbd49e412e59a98111417a8be13dbe0afa7230a7ad449a185434f2bfeaf9",
+                                 "size":  692224
+                             },
+                      "Michoacan":  {
+                                        "url":  "https://raw.githubusercontent.com/incogniadev/chromelauncher-releases/main/142/ChromeLauncher-142-Morelia-PROD.exe",
+                                        "sha256":  "734e1cf149f871c8f2e0aecca245d185d05347879873a9ff509e6a26353d2fa4",
+                                        "size":  692224
+                                    },
+                      "Tamaulipas":  {
+                                         "url":  "https://raw.githubusercontent.com/incogniadev/chromelauncher-releases/main/142/ChromeLauncher-142-Victoria-PROD.exe",
+                                         "sha256":  "c3fac47091bde2279ab12b1ad9fb62e350036f865ca1791572d4d6e2a2ea22fa",
+                                         "size":  692224
+                                     },
+                      "Durango":  {
+                                      "url":  "https://raw.githubusercontent.com/incogniadev/chromelauncher-releases/main/142/ChromeLauncher-142-Santiago-PROD.exe",
+                                      "sha256":  "32329e421c19dbb2575b584025420272c510295231f59a25a3820ccda69eea5f",
+                                      "size":  692224
+                                  },
+                      "Peru":  {
+                                   "url":  "https://raw.githubusercontent.com/incogniadev/chromelauncher-releases/main/142/ChromeLauncher-142-ICA-QA.exe",
+                                   "sha256":  "8da608e7e26a130475850fe364b690be4129616f2889f775e95c3500f46655b4",
+                                   "size":  692224
+                               }
+                  }
+}
