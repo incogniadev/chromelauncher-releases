@@ -8,6 +8,19 @@ Public distribution repository for ChromeLauncher binaries.
 
 **ONLY download `.exe` files from GitHub Releases** - ignore "Source code" archives (they don't contain application source code, only repository metadata).
 
+## Repository Structure
+
+This repository contains only configuration and documentation:
+
+```
+.
+├── .gitattributes       # Git configuration
+├── README.md            # This file
+└── version.json         # Version metadata (for reference)
+```
+
+**All binaries are distributed via GitHub Releases**, not stored in the repository itself.
+
 ## Download
 
 ### Official Releases
@@ -19,14 +32,29 @@ All binaries are distributed via [GitHub Releases](https://github.com/incogniade
 ### For End Users
 
 1. Go to [Releases](https://github.com/incogniadev/chromelauncher-releases/releases/latest)
-2. Download the appropriate `.exe` file for your location
+2. Download the appropriate `.exe` file for your location (e.g., `ChromeLauncher-142-Victoria-PROD.exe`)
 3. Ignore the "Source code" archives
+4. Verify the SHA256 checksum displayed on the release page
+
+### Available Binaries
+
+Each release includes 37 binaries for different locations:
+
+- Acaponeta, Acapulco (DEV/PROD), Bahia, Chiapas (DEV/QA)
+- Cintalapa, Comitan, Cristobal, Durango, Ecatepec
+- Gomez, ICA (PROD/QA), Ixtlan, Jalisco, K1
+- Laredo, Mante, Michoacan, Morelia, Ocosingo
+- Palenque, Reforma, Reynosa, Salto, Santiago
+- Tampico, Tapachula, Tepic (PROD/QA), Tonala
+- Tuxtla, Umipol (PROD/QA), Victoria, Villaflores
 
 ### For ChromeLauncher Auto-Update System
 
 The `version.json` file is included in each release and contains metadata for automatic updates:
 
 **Metadata URL**: `https://github.com/incogniadev/chromelauncher-releases/releases/latest/download/version.json`
+
+Example structure:
 
 ```json
 {
@@ -58,6 +86,14 @@ if ($actualHash -eq $expectedHash) {
     Write-Host "WARNING: Checksum mismatch!" -ForegroundColor Red
 }
 ```
+
+## How It Works
+
+1. Developer updates binaries in private repository
+2. GitHub Actions workflow automatically creates a new release
+3. All 37 binaries + `version.json` are uploaded as release assets
+4. Users download directly from GitHub Releases
+5. Auto-update system checks for new versions via `version.json`
 
 ## License
 
