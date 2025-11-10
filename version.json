@@ -1,8 +1,8 @@
-﻿{
+{
     "latestVersion":  142,
     "mandatory":  false,
     "changelog":  "Actualizacion flags experimentales para Chrome 142",
-    "releaseDate":  "2025-11-10T22:41:05Z",
+    "releaseDate":  "2025-11-10T22:53:08Z",
     "stats":  {
                   "binaryCount":  37,
                   "totalSizeMB":  24.43
